@@ -1,0 +1,331 @@
+<!-- index.html -->
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Albina Khasanova</title>
+
+  <!-- Example of using web fonts: you can connect your preferred font (Roboto/Inter/etc.).
+       If you want to use Google Fonts — replace href with the corresponding URL. -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Playfair+Display:wght@500;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="top-header">
+    <h1 class="top-title">ALBINA KHASANOVA</h1>
+    <p class="top-subtitle">WELCOME</p>
+  
+    <nav class="top-nav">
+      <ul>
+        <li><a href="#works">WORKS</a></li>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#contacts">CONTACTS</a></li>
+        <li><button class="lang-switch">🌐 Language</button></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="app" class="container" role="main">
+    <!-- PAGE: WORKS -->
+    <section id="works" class="page page--visible" aria-labelledby="works-title">
+
+      <!-- Instruction: add work cards here.
+           For each work:
+           - Replace src with the image path (e.g. "assets/images/work1.jpg" or URL).
+           - Fill in the data-full attribute (path to the full-size version of the image).
+           - Inside .work-desc specify a short description, tools, and a case link if needed.
+      -->
+      <div class="works-list" id="works-list">
+        <!-- Example card -->
+        <article class="work-card" style="--card-bg: #F6E3C8; color: #432;">
+          <div class="work-main">
+            <button class="work-thumb" aria-haspopup="dialog" data-full="assets/images/one.jpg">
+              <img src="assets/images/one.jpg" alt="Main project image" />
+            </button>
+            <div class="work-info">
+              <h2 class="work-title">“Silence of Reflections”</h2>
+              <p class="work-desc">
+                A traditional Eastern building harmoniously placed on the shore of a calm pond.<br>Every architectural detail, from carved windows to distinctive multi-tiered roofs,<br>is delicately rendered in line and light gray tones,<br>while the reflection in the water creates a sense of double space and tranquility.
+              </p>
+            </div>
+          </div>
+
+          <div class="work-number">05</div>
+        
+          <div class="work-gallery">
+          </div>
+        </article>
+
+        <!-- Example of a second project -->
+        <article class="work-card" style="--card-bg: #C8E4F6; color: #034;">
+          <div class="work-main">
+            <button class="work-thumb" aria-haspopup="dialog" data-full="assets/images/tree.jpg">
+              <img src="assets/images/tree.jpg" alt="Main project image" />
+            </button>
+            <div class="work-info">
+                <h2 class="work-title">“Consciousness of the Jungle”</h2>
+                <p class="work-desc">
+                  The illustration explores the human inner world as a living ecosystem,<br>
+                  where organic and geometric forms reflect the interconnection between nature and consciousness.<br>
+                  Through rich colors and symbolic details, it shows<br>
+                  how thoughts, emotions, and perception intertwine in a single stream of creativity.<br><br>
+                  The work was created for <b>NeuroGarden Press</b><br>
+                  as a cover for an essay collection on neuroaesthetics and visual culture.
+                </p>
+
+            </div>
+          </div>
+
+          <div class="work-number">04</div>
+        
+          <div class="work-gallery">
+          </div>
+        </article>
+
+        <article class="work-card" style="--card-bg: #D7A7A7; color: #630606;">
+          <div class="work-main">
+            <button class="work-thumb" aria-haspopup="dialog" data-full="assets/images/two.jpeg">
+              <img src="assets/images/two.jpeg" alt="Main project image" />
+            </button>
+            <div class="work-info">
+              <h2 class="work-title">“Keeper of the Keys”</h2>
+              <p class="work-desc">
+                The illustration depicts a majestic female figure with a long braid,<br>standing before abstract walls and gates.<br>
+                Her dark-blue skin is adorned with geometric patterns, and her gaze is stern and focused.<br>
+                She holds a key on a chain — a symbol of power and mystery — while the background, with large stylized leaves and contrasting pink-blue shades, creates a mystical and futuristic atmosphere.<br><br>
+                The work was created for a contemporary art gallery<br>
+                or the fantasy publishing house <b>FantasyFrame</b><br>
+                as an illustration for visual projects in the fantasy genre.
+              </p>
+
+            </div>
+          </div>
+
+          <div class="work-number">03</div>
+        
+          <div class="work-gallery">
+            <img src="assets/images/two.jpeg" alt="additional image 1" />
+            <img src="assets/images/two.jpeg" alt="additional image 2" />
+            <img src="assets/images/two.jpeg" alt="additional image 3" />
+          </div>
+        </article>
+
+
+        <article class="work-card" style="--card-bg: #F6E3C8; color: #432;">
+          <div class="work-main">
+            <button class="work-thumb" aria-haspopup="dialog" data-full="assets/images/one.jpg">
+              <img src="assets/images/one.jpg" alt="Main project image" />
+            </button>
+            <div class="work-info">
+              <h2 class="work-title">“Silence of Reflections”</h2>
+              <p class="work-desc">
+                A traditional Eastern building harmoniously placed on the shore of a calm pond.<br>Every architectural detail, from carved windows to distinctive multi-tiered roofs,<br>is delicately rendered in line and light gray tones,<br>while the reflection in the water creates a sense of double space and tranquility.
+              </p>
+            </div>
+          </div>
+
+          <div class="work-number">02</div>
+        
+          <div class="work-gallery">
+            <img src="assets/images/one.jpg" alt="additional image 1" />
+            <img src="assets/images/one.jpg" alt="additional image 2" />
+            <img src="assets/images/one.jpg" alt="additional image 3" />
+          </div>
+        </article>
+
+        <article class="work-card" style="--card-bg: #D7A7A7; color: #630606;">
+          <div class="work-main">
+            <button class="work-thumb" aria-haspopup="dialog" data-full="assets/images/two.jpeg">
+              <img src="assets/images/two.jpeg" alt="Main project image" />
+            </button>
+            <div class="work-info">
+              <h2 class="work-title">“Keeper of the Keys”</h2>
+              <p class="work-desc">
+                The illustration depicts a majestic female figure with a long braid,<br>standing before abstract walls and gates.<br>
+                Her dark-blue skin is adorned with geometric patterns, and her gaze is stern and focused.<br>
+                She holds a key on a chain — a symbol of power and mystery — while the background, with large stylized leaves and contrasting pink-blue shades, creates a mystical and futuristic atmosphere.<br><br>
+                The work was created for a contemporary art gallery<br>
+                or the fantasy publishing house <b>FantasyFrame</b><br>
+                as an illustration for visual projects in the fantasy genre.
+              </p>
+            </div>
+          </div>
+
+          <div class="work-number">01</div>
+        
+          <div class="work-gallery">
+          </div>
+        </article>
+
+        <!-- Add as many cards as needed. The list scrolls top to bottom. -->
+      </div>
+    </section>
+
+    <!-- PAGE: ABOUT -->
+    <section id="about" class="page page--visible" aria-labelledby="about-title">
+      <div class="hero-bg about-hero">
+        <div class="overlay-block profile-overlay" role="region" aria-label="About the designer">
+          <h1 id="about-title" class="page-title profile-title fade-in">PROFILE</h1>
+    
+          <div class="about-content profile-content fade-in-delayed">
+            <!-- Block 1: Profile -->
+            <div class="profile-section">
+              <!-- Block 2: Name -->
+              <div class="profile-name">
+                <p><strong>Albina Nurovna Khasanova</strong></p>
+              </div>
+          
+              <!-- Block 3: Other -->
+              <div class="profile-description">
+                <p>
+                  Graduate in “Illustration and Design”.<br>  
+                  Currently engaged in visual communication and digital illustration.
+                </p>
+                <p>
+                  Has been interested in fashion and visual aesthetics since childhood.<br>  
+                  Creates illustrations inspired by street fashion and music.
+                </p>
+                <p>
+                  Works with <strong>CLIP STUDIO PAINT</strong>, <strong>Photoshop</strong>, and <strong>Illustrator</strong>.<br>  
+                  Conducts private lessons in digital illustration and portrait drawing.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PAGE: CONTACTS -->
+    <section id="contacts" class="page" aria-labelledby="contacts-title">
+      <div class="hero-bg">
+        <div class="overlay-block" role="region" aria-label="Contact information">
+    
+          <h1 id="contacts-title" class="page-title">Contacts</h1>
+    
+          <!-- Contact data -->
+          <div class="contacts-grid">
+    
+            <div class="contact-item">
+              <h3>Email</h3>
+              <p>
+                <a href="mailto:your.email@example.com">
+                  your.email@example.com
+                </a>
+              </p>
+            </div>
+    
+            <div class="contact-item">
+              <h3>Socials</h3>
+              <p>
+                <a href="https://www.instagram.com/your_profile" target="_blank" rel="noopener">
+                  Instagram
+                </a><br>
+                <a href="https://www.behance.net/your_profile" target="_blank" rel="noopener">
+                  Telegram
+                </a>
+              </p>
+            </div>
+  
+          </div>
+    
+          <!-- Contact form -->
+          <form id="contact-form" class="contact-form" action="https://formspree.io/f/mqagdvyy" method="POST">
+            <label>
+              <input name="name" type="text" placeholder="Your name" required>
+            </label>
+          
+            <label>
+              <input name="email" type="email" placeholder="Email" required>
+            </label>
+          
+            <label>
+              <textarea name="message" placeholder="Briefly about the project" rows="4" required></textarea>
+            </label>
+          
+            <button type="submit" class="btn">Send</button>
+          </form>
+
+    
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-inner">
+      <small>© <span id="year"></span> Albina Khasanova — Graphic Designer</small>
+      <nav aria-label="Footer links">
+        <ul class="footer-links">
+          <li><a href="#works" data-link>Works</a></li>
+          <li><a href="#about" data-link>About</a></li>
+          <li><a href="#contacts" data-link>Contacts</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+
+  <!-- Modal window for enlarged images -->
+  <div id="image-modal" class="modal" role="dialog" aria-hidden="true" aria-labelledby="modal-title" tabindex="-1">
+    <div class="modal-backdrop" data-close></div>
+    <div class="modal-content" role="document">
+      <button class="modal-close" aria-label="Close" data-close>&times;</button>
+      <figure>
+        <img id="modal-image" src="" alt="" />
+        <figcaption id="modal-caption"></figcaption>
+      </figure>
+    </div>
+  </div>
+
+  <!-- Language selection modal -->
+  <div id="lang-modal" class="lang-modal" aria-hidden="true">
+    <div class="lang-modal-backdrop" data-close></div>
+    <div class="lang-modal-content">
+      <h2>Select Language / Choose language</h2>
+      <div class="lang-options">
+        <button id="lang-ru" class="lang-btn">Russian</button>
+        <button id="lang-en" class="lang-btn">English</button>
+      </div>
+    </div>
+  </div>
+  
+  <script>
+    // ====== LANGUAGE SELECTION POPUP ======
+    (function(){
+      const modal = document.getElementById('lang-modal');
+      const ruBtn = document.getElementById('lang-ru');
+      const enBtn = document.getElementById('lang-en');
+      const backdrop = modal.querySelector('.lang-modal-backdrop');
+  
+      // If language is already selected — redirect
+      const savedLang = localStorage.getItem('lang');
+      if (savedLang === 'en' && !location.pathname.includes('index-en.html')) {
+        location.href = 'index-en.html';
+      } else if (savedLang === 'ru' && !location.pathname.includes('index.html')) {
+        location.href = 'index.html';
+      }
+  
+      // Show modal on "language" button click
+      document.querySelector('.lang-switch')?.addEventListener('click', () => {
+        modal.setAttribute('aria-hidden', 'false');
+      });
+  
+      backdrop.addEventListener('click', () => modal.setAttribute('aria-hidden', 'true'));
+  
+      ruBtn.addEventListener('click', () => {
+        localStorage.setItem('lang', 'ru');
+        location.href = 'index.html';
+      });
+      enBtn.addEventListener('click', () => {
+        localStorage.setItem('lang', 'en');
+        location.href = 'index-en.html';
+      });
+    })();
+  </script>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
