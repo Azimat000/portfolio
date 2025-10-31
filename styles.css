@@ -626,3 +626,28 @@ body{
 .lang-switch:hover {
   opacity: 0.7;
 }
+
+.top-header {
+  width: 100%;
+  background: var(--bg);
+  border-bottom: 2px solid #000;
+  padding: 80px 20px 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.top-header-inner {
+  width: 100%;
+  max-width: var(--max-width); /* 1100px из :root */
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .top-header {
+    padding: 40px 16px 24px;
+  }
+
+  .top-header-inner {
+    padding: 0 10px;
+  }
+}
